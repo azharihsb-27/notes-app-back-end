@@ -1,3 +1,5 @@
 node_modules
 web-service-api.pem
 github-token.txt
+.env
+.prod.env
