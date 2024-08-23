@@ -5,7 +5,7 @@ const { mapDBToModel } = require('../../utils');
 const NotFoundError = require('../../exceptions/NotFoundError');
 const AuthorizationError = require('../../exceptions/AuthorizationError');
 
-class NotesSerive {
+class NotesService {
   constructor(collaborationService) {
     this._pool = new Pool();
     this._collaborationService = collaborationService;
@@ -116,4 +116,4 @@ class NotesSerive {
   }
 }
 
-module.exports = NotesSerive;
+module.exports = NotesService;
