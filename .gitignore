@@ -1,5 +1,5 @@
 node_modules
-web-service-api.pem
-github-token.txt
+notes-api-web-server.pem
 .env
 .prod.env
+src/api/uploads/file
